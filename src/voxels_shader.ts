@@ -1,7 +1,5 @@
 
-export const voxels_shader = (function() {
-
-const _VS = `
+export const VS = `
 precision highp float;
 
 uniform mat4 modelViewMatrix;
@@ -71,7 +69,7 @@ void main(){
 }
 `;
 
-const _PS = `
+export const PS = `
 precision highp float;
 
 uniform sampler2D diffuseTexture;
@@ -106,9 +104,3 @@ void main() {
   gl_FragColor = mix(outColor, fogColor, vFog);
 }
 `;
-
-  return {
-    VS: _VS,
-    PS: _PS,
-  };
-})();

@@ -1,0 +1,32 @@
+{
+    "name": "@flowtr/chatlab",
+    "version": "1.0.0",
+    "repository": "https://github.com/creepinson/MinecraftClone",
+    "author": "Theo Paris <theoplaysmc@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack serve --mode development",
+        "build": "webpack --mode production"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.13.10",
+        "@babel/preset-env": "^7.13.10",
+        "@babel/preset-typescript": "^7.13.0",
+        "@types/three": "^0.126.0",
+        "babel-loader": "^8.2.2",
+        "eslint": "^7.21.0",
+        "file-loader": "^6.2.0",
+        "prettier": "^2.2.1",
+        "ts-loader": "^8.0.17",
+        "typescript": "^4.2.3",
+        "webpack": "^5.24.4",
+        "webpack-cli": "^4.5.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "@dcl/noise-utils": "^1.0.11",
+        "@toes/core": "^0.0.1",
+        "core-js": "^3.9.1",
+        "three": "^0.126.1"
+    }
+}
